@@ -2,7 +2,7 @@ Gift_WebServices.CSharp
 ====================
 
 #Comunication
-* If you need help, use StackOverflow and tag 'mercurypay'
+* If you need help, use [Stack Overflow](http://www.stackoverflow.com) and tag 'mercurypay'
 * If you have a feature request, open an issue.
 * If you want to contribute, submit a pull request.
 
