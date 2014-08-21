@@ -12,19 +12,18 @@ Create a Dictionary&lt;string, object&gt; variable and add all the Key Value Pai
 ```
 Dictionary<string, object> requestDictionary = new Dictionary<string, object>();
 
-            Dictionary<string, object> requestDictionary = new Dictionary<string, object>();
-            requestDictionary.Add("MerchantID", merchantID);
-            requestDictionary.Add("IpPort", "9100");
-            requestDictionary.Add("TranType", "PrePaid");
-            requestDictionary.Add("TranCode", "Balance");
-            requestDictionary.Add("InvoiceNo", invoiceNo);
-            requestDictionary.Add("RefNo", invoiceNo);
-            requestDictionary.Add("Memo", memo);
-            requestDictionary.Add("EncryptedFormat", "MagneSafe");
-            requestDictionary.Add("AccountSource", "Swiped");
-            requestDictionary.Add("EncryptedBlock", swipedGiftTrack2EncryptedBlock);
-            requestDictionary.Add("EncryptedKey", swipedGiftTrack2EncryptedKey);
-            requestDictionary.Add("OperatorID", operatorID);
+requestDictionary.Add("MerchantID", merchantID);
+requestDictionary.Add("IpPort", "9100");
+requestDictionary.Add("TranType", "PrePaid");
+requestDictionary.Add("TranCode", "Balance");
+requestDictionary.Add("InvoiceNo", invoiceNo);
+requestDictionary.Add("RefNo", invoiceNo);
+requestDictionary.Add("Memo", memo);
+requestDictionary.Add("EncryptedFormat", "MagneSafe");
+requestDictionary.Add("AccountSource", "Swiped");
+requestDictionary.Add("EncryptedBlock", swipedGiftTrack2EncryptedBlock);
+requestDictionary.Add("EncryptedKey", swipedGiftTrack2EncryptedKey);
+requestDictionary.Add("OperatorID", operatorID);
 ```
   
 ##Step 2: Process the Transaction
@@ -33,7 +32,7 @@ a. Create a service reference to our testing URL @ https://w1.mercurydev.net/ws/
 
 b. Use XMLHelper.BuildXMLRequest(Dictionary<string, object) to create the XML Request string.
 
-c. Call the CreditTransaction web method with XML Request string and Merchant Password.
+c. Call the GiftTransaction web method with XML Request string and Merchant Password.
 
 ```
 string xmlRequest = XMLHelper.BuildXMLRequest(requestDictionary).ToString();
@@ -41,7 +40,7 @@ string xmlResponse = string.Empty;
 
 using (MercuryWebServices.wsSoapClient client = new MercuryWebServices.wsSoapClient())
 {
-   xmlResponse = client.CreditTransaction(xmlRequest, password);
+   xmlResponse = client.GiftTransaction(xmlRequest, password);
 }
 ```
 
