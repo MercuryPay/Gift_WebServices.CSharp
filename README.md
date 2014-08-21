@@ -1,6 +1,11 @@
 Gift_WebServices.CSharp
 ====================
 
+##Comunication
+If you need help, use StackOverflow and tag 'mercurypay'
+If you have a feature request, open an issue.
+If you want to contribute, submit a pull request.
+
 VS 2012 console application processing transactions to our web services platform.
 
 3 step process to integrate to Mercury Web Services.
