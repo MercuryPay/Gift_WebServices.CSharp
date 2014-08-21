@@ -1,7 +1,7 @@
 Gift_WebServices.CSharp
 ====================
 
-VS 2010 console application processing transactions to our web services platform.
+VS 2012 console application processing transactions to our web services platform.
 
 3 step process to integrate to Mercury Web Services.
 
