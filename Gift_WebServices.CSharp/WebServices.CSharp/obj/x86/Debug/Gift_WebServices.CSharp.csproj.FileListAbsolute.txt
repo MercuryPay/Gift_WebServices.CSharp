@@ -1,0 +1,6 @@
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\bin\Debug\Gift_WebServices.CSharp.exe.config
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\bin\Debug\Gift_WebServices.CSharp.exe
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\bin\Debug\Gift_WebServices.CSharp.pdb
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\obj\x86\Debug\Gift_WebServices.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\obj\x86\Debug\Gift_WebServices.CSharp.exe
+C:\Users\dourada\Documents\GitHub\Gift_WebServices.CSharp\Gift_WebServices.CSharp\WebServices.CSharp\obj\x86\Debug\Gift_WebServices.CSharp.pdb
