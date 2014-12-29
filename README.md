@@ -1,13 +1,12 @@
 Gift_WebServices.CSharp
 ====================
 
-#Comunication
 * If you **need help**, use [Stack Overflow](http://stackoverflow.com) and tag 'mercurypay'
 * If you have a **feature request**, open an issue.
 * If you want to **contribute**, submit a pull request.
 
 
-VS 2012 console application processing transactions to our web services platform.
+VS 2013 Express console application processing transactions to our web services platform.  You can change the app.config to process transactions to a different webservices platform URL.
 
 3 step process to integrate to Mercury Web Services.
 
