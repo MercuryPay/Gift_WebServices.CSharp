@@ -1,7 +1,8 @@
 Gift_WebServices.CSharp
 ====================
 
-* If you **need help**, use [Stack Overflow](http://stackoverflow.com) and tag 'mercurypay'
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=gotquestions">Got questions? Connect with our experts on Vantiv ONE.</a>
+
 * If you have a **feature request**, open an issue.
 * If you want to **contribute**, submit a pull request.
 
